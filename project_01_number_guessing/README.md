@@ -19,7 +19,8 @@ Clone this repository.
 
 Install dependencies using npm install or npm i.
 Run the game using 
-```tsc
-& node index.js
+```
+tsc
+then node index.js on command line
 ```
 Have fun playing the guessing number game!
