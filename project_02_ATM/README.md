@@ -49,6 +49,11 @@ This ATM simulator program allows users to perform banking transactions such as 
 
 1. Clone this repository.
 2. Install dependencies using npm install.
-3. Run the program using npm start.
+3. Run the program using following commands:
+
+```
+tsc
+then node index.js on command line
+```
 
 Enjoy simulating ATM transactions with this program!
