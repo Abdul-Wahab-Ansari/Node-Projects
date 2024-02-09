@@ -1,0 +1,122 @@
+[
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which programming language shares its name with an island in Indonesia?",
+        "correct_answer": "Java",
+        "choices": ["Python", "C", "Jakarta", "Java"]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What does CSS stand for in web development?",
+        "correct_answer": "Cascading Style Sheets",
+        "choices": [
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In JavaScript, which operator is used to combine two or more strings?",
+        "correct_answer": "Concatenation",
+        "choices": [
+            "Combination",
+            "Conjunction",
+            "Concatenation",
+            "Composition"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the main purpose of an 'if' statement in most programming languages?",
+        "correct_answer": "Conditional execution",
+        "choices": [
+            "Iterative execution",
+            "Sequential execution",
+            "Parallel execution",
+            "Conditional execution"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these programming languages is known for its use in machine learning and data science?",
+        "correct_answer": "Python",
+        "choices": ["Java", "Python", "C++", "Ruby"]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does the acronym 'SQL' stand for in the context of databases?",
+        "correct_answer": "Structured Query Language",
+        "choices": [
+            "Structured Query Language",
+            "Standard Query Language",
+            "System Query Language",
+            "Sequential Query Language"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What symbol is commonly used at the beginning of a variable name in most programming languages?",
+        "correct_answer": "Underscore",
+        "choices": [
+            "Exclamation mark",
+            "Ampersand",
+            "Underscore",
+            "Hash"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which data type is used to represent whole numbers in programming?",
+        "correct_answer": "Integer",
+        "choices": [
+            "Float",
+            "Double",
+            "Character",
+            "Integer"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Python, which keyword is used to define a function?",
+        "correct_answer": "def",
+        "choices": [
+            "define",
+            "function",
+            "def",
+            "fun"
+        ]
+    },
+    {
+        "category": "Programming",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the version control system created by Linus Torvalds?",
+        "correct_answer": "Git",
+        "choices": [
+            "Svn",
+            "Mercurial",
+            "Git",
+            "Bazaar"
+        ]
+    }
+]
