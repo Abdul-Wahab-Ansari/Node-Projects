@@ -53,7 +53,7 @@ This ATM simulator program allows users to perform banking transactions such as 
 
 ```
 tsc
-then node index.js on command line
+then node main.js on command line
 ```
 
 Enjoy simulating ATM transactions with this program!
