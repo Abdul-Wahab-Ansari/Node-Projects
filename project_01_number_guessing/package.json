@@ -20,8 +20,9 @@
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
-    "@types/chalk-animation": "^1.6.2",
+    "@types/chalk-animation": "^1.6.3",
     "@types/inquirer": "^9.0.6",
     "@types/node": "^20.8.9"
   }
 }
+
