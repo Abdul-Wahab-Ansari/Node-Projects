@@ -34,7 +34,7 @@ This program serves as a student management system allowing users to perform var
 
 ```
 tsc
-then node index.js on command line
+then node main.js on command line
 ```
 4. Choose an action from the main menu.
 5. Follow the prompts to perform the selected action.
