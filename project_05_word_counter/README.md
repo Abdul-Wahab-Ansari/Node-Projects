@@ -33,7 +33,7 @@ To use the word counter:
 
 ```
 tsc
-then node index.js on command line
+then node main.js on command line
 ```
 
 ## Notes
