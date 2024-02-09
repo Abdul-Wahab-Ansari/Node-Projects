@@ -22,13 +22,16 @@ Once you have Node.js installed, follow these steps:
    
 2. Navigate to the project directory
 
-3. ```Install the dependencies:
+3. Install the dependencies:
+   ```bash
    npm install
-
-4. ```Run the calculator:
+   
+5. Run the calculator:
+   ```bash
    tsc main.ts
    node main.js
-   Make sure you have installled Typescript & node on your local machine
+
+Make sure you have installled Typescript & node on your local machine
 
 ## Usage
 Upon running the calculator, you will be presented with a welcome message and prompted to enter your first and second numbers, along with the desired operation (addition, subtraction, multiplication, or division).
@@ -43,11 +46,12 @@ Suppose you want to perform the following calculation:
 First number: 10
 Second number: 5
 Operation: Addition
-```After running the calculator and providing the inputs, the output will be:
+
+After running the calculator and providing the inputs, the output will be:
+```bash
    Result of 10 + 5 = 15
 ```
 ## Dependencies
-inquirer: A collection of common interactive command line user interfaces.
-chalk: Terminal string styling done right.
-chalk-animation: Animation utility for chalk.
-   
+ - inquirer: A collection of common interactive command line user interfaces.
+ - chalk: Terminal string styling done right. /n
+ - chalk-animation: Animation utility for chalk.
