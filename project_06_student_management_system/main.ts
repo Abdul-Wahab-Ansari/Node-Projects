@@ -216,5 +216,3 @@ console.log(chalk.cyan.bold("Welcome to the Student Management System!"));
 
 // Start the main menu
 mainMenu();
-
-
