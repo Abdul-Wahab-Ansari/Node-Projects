@@ -2,4 +2,12 @@
 
 ## Simple Command Line Projects with Typescript and Node.js
 
-1. [CLI based Calculator](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_00_calculator)
+0. [CLI based Calculator](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_00_calculator)
+1. [Number Guessing Game](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_01_number_guessing)
+2. [ATM Simulator](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_02_ATM)
+3. [To-Do App](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_03_todo_lilst)
+4. [Currency Converter](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_04_currency_converter)
+5. [Word Counter](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_05_word_counter)
+6. [Student Management System](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_06_student_management_system)
+7. [Adventure Game](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_07_adventure_game)
+8. [Quiz App](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_08_quiz)
