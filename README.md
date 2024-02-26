@@ -14,4 +14,4 @@
 9. [Countdown Timer](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_09_countDownTimer)
 10. [Object Orient Programing Simple App](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_10_OOPs)
 11. [Object Oriented Programming with TypeScript Bank Console App](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_11_myBank_OOP)
-12. [Inventory Management System]()
+12. [Inventory Management System](https://github.com/Abdul-Wahab-Ansari/Node-Projects/tree/master/project_12_Inventory_Management_System)
