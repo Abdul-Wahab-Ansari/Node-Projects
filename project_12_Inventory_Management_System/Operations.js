@@ -1,3 +1,4 @@
+import chalk from "chalk";
 export default class Operations {
     products = [];
     addProduct(product) {
@@ -11,7 +12,7 @@ export default class Operations {
             `);
         }
         else {
-            console.log(`Product Not Found`);
+            console.log(chalk.bold.red(`Product Not Found`));
         }
     }
     showAllProducts() {
@@ -23,35 +24,47 @@ export default class Operations {
     }
     showProductByCategory(productCategory) {
         let product = this.products.filter(product => product.productCategory === productCategory);
-        if (product) {
+        if (product.length > 0) {
             product.forEach(elem => {
                 console.log(`Product Id: ${elem.productId}, Product Name: ${elem.productName}, Price: ${elem.price}, Quantity: ${elem.quantity} Category: ${elem.productCategory}`);
             });
         }
         else {
-            console.log(`No Product Found`);
+            console.log(chalk.bold.red(`No Product Found`));
         }
     }
-    showProductByQuantity(quantity) {
-        let product = this.products.filter(product => product.quantity === quantity);
-        if (product) {
+    showProductByQuantity(productId) {
+        let product = this.products.filter(product => product.productId === productId);
+        if (product.length > 0) {
             product.forEach(elem => {
-                console.log(`Product Id: ${elem.productId}, Product Name: ${elem.productName}, Price: ${elem.price}, Quantity: ${elem.quantity} Category: ${elem.productCategory}`);
+                console.log(`Product Id: ${elem.productId},\nProduct Name: ${elem.productName},\n${chalk.bold.green(`Quantity: ${elem.quantity}`)}`);
             });
         }
         else {
-            console.log(`No Product Found`);
+            console.log(chalk.bold.red(`No Product Found matching Product ID: ${productId}`));
         }
     }
     showProductByPrice(price) {
         let product = this.products.filter(product => product.price === price);
-        if (product) {
+        if (product.length > 0) {
             product.forEach(elem => {
-                console.log(`Product Id: ${elem.productId}, Product Name: ${elem.productName}, Price: ${elem.price}, Quantity: ${elem.quantity} Category: ${elem.productCategory}`);
+                console.log(`Product Id: ${elem.productId}, Product Name: ${elem.productName}, ${chalk.bold.green(`Price: ${elem.price}`)}, Quantity: ${elem.quantity} Category: ${elem.productCategory}`);
             });
         }
         else {
-            console.log(`No Product Found`);
+            console.log(chalk.bold.red(`No Product Found`));
         }
+    }
+    showTotalInvByTotalPrice() {
+        // let allPrice: any = this.products.map((product)=> product.price)
+        // console.log(allPrice)
+        // let totalPrice: number = allPrice.reduce((acc: number, item:any) => acc + item, 0)
+        // console.log(totalPrice)
+        let totalPrice = this.products.reduce((acc, currVal) => acc + currVal.price, 0);
+        console.log(chalk.bold.green(`Total Inventory available of Amount: ${totalPrice}`));
+    }
+    showTotalInvQuantity() {
+        let totalQuantity = this.products.reduce((acc, currVal) => acc + currVal.quantity, 0);
+        console.log(chalk.bold.green(`Total Inventory available of Amount: ${totalQuantity}`));
     }
 }
